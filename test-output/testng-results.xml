@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38473" started-at="2022-08-02T18:42:18Z" finished-at="2022-08-02T18:42:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38473" started-at="2022-08-02T18:42:18Z" finished-at="2022-08-02T18:42:57Z">
+      <class name="com.vcentry.lab.testCases.CheckOutPageValidator">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="setUp" is-config="true" duration-ms="8" started-at="2022-08-02T19:42:18Z" finished-at="2022-08-02T19:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="7935" started-at="2022-08-02T19:42:19Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailA@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="809" started-at="2022-08-02T19:42:27Z" finished-at="2022-08-02T19:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2793" started-at="2022-08-02T19:42:28Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2222]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailB@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="551" started-at="2022-08-02T19:42:31Z" finished-at="2022-08-02T19:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2453" started-at="2022-08-02T19:42:31Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3333]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailC@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="455" started-at="2022-08-02T19:42:34Z" finished-at="2022-08-02T19:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2855" started-at="2022-08-02T19:42:34Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailD@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="486" started-at="2022-08-02T19:42:37Z" finished-at="2022-08-02T19:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2946" started-at="2022-08-02T19:42:38Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailD@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="658" started-at="2022-08-02T19:42:40Z" finished-at="2022-08-02T19:42:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2469" started-at="2022-08-02T19:42:41Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtF]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[66666]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailD@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="496" started-at="2022-08-02T19:42:44Z" finished-at="2022-08-02T19:42:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2633" started-at="2022-08-02T19:42:44Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[77777]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailD@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="617" started-at="2022-08-02T19:42:47Z" finished-at="2022-08-02T19:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2628" started-at="2022-08-02T19:42:47Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtH]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[88888]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailD@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="516" started-at="2022-08-02T19:42:50Z" finished-at="2022-08-02T19:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2343" started-at="2022-08-02T19:42:51Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[999999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[maili@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="581" started-at="2022-08-02T19:42:53Z" finished-at="2022-08-02T19:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="validateCheckoutPage" duration-ms="2523" started-at="2022-08-02T19:42:53Z" data-provider="CheckoutTest" finished-at="2022-08-02T19:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheckoutPageTest_DataSet11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru@12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[produtJ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10101010]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mailj@email.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electrical]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[purchaseNameJ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckoutPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2]" name="tearDown" is-config="true" duration-ms="569" started-at="2022-08-02T19:42:56Z" finished-at="2022-08-02T19:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckoutPage status=SUCCESS method=CheckOutPageValidator.validateCheckoutPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vcentry.lab.testCases.CheckOutPageValidator@2b2948e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vcentry.lab.testCases.CheckOutPageValidator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
